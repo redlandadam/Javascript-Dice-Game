@@ -1,0 +1,84 @@
+*{ 
+  margin: 0;
+  padding:0;
+}
+
+body {
+  font-family: 'Sigmar', cursive;
+  font-size: 16px;
+  background-image: url("images/desert_background.png");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content:  space-evenly;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+h1 {
+  margin: 30px auto 0 auto;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 5rem;
+  background: hsla(89, 60%, 87%, 1);
+  background: linear-gradient(90deg, hsla(89, 60%, 87%, 1) 0%, hsla(34, 100%, 48%, 1) 50%, hsla(335, 100%, 49%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(89, 60%, 87%, 1) 0%, hsla(34, 100%, 48%, 1) 50%, hsla(335, 100%, 49%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(89, 60%, 87%, 1) 0%, hsla(34, 100%, 48%, 1) 50%, hsla(335, 100%, 49%, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-filter: drop-shadow(2px 2px #333);
+          filter: drop-shadow(2px 2px #333);
+}
+
+p {
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 4px 4px 1px rgb(29, 29, 29);
+}
+
+.button-container {
+  display: flex;
+  width: 50%;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+img {
+  box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+.player1-container p{
+  color: #C49C38;
+}
+
+.player2-container p{
+  color: #0D6340;
+}
+
+#winner-text {
+  color: #45bb00;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+#button {
+  font-family: 'Sigmar', cursive;
+  font-size: 2rem;
+  background: hsla(89, 60%, 87%, 1);
+  background: linear-gradient(90deg, hsla(89, 60%, 87%, 1) 0%, hsla(34, 100%, 48%, 1) 50%, hsla(335, 100%, 49%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(89, 60%, 87%, 1) 0%, hsla(34, 100%, 48%, 1) 50%, hsla(335, 100%, 49%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(89, 60%, 87%, 1) 0%, hsla(34, 100%, 48%, 1) 50%, hsla(335, 100%, 49%, 1) 100%);
+  padding: 10px;
+  border:none;
+  border-radius: 3px;
+  color: rgb(78, 35, 0);
+  transition: all 0.3s ease-out;
+}
+
+#button:hover {
+  transform: scale(0.9);
+}
